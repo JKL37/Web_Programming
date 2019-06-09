@@ -1,0 +1,14 @@
+﻿@model WebApplication_Ships.Models.Ship
+@{
+    ViewBag.Title = Model.Name;
+}
+<h2>Корабль @Model.Name</h2>
+<div>
+    <dl class="dl-horizontal">
+        <dt>Длина</dt>
+        <dd>@Model.Dlina</dd>
+ 
+        <dt>Цена</dt>
+        <dd>@Model.Price</dd>
+    </dl>
+</div>
